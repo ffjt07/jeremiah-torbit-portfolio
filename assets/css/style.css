@@ -93,6 +93,8 @@ section h2 {
 /* Classes Here */
 .main-figure {
     display: flex;
+    margin: 1rem;
+    width: 100%;
     justify-content: flex-start;
     padding: var(--main-pad);
 }
