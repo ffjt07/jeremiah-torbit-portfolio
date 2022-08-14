@@ -61,17 +61,6 @@ nav ul li a{
     color: var(--light-grey);
 }
 
-figure {
-    display: flex;
-    justify-content: flex-start;
-    padding: var(--main-pad);
-}
-
-figure img {
-    max-height: 30rem;
-    width: 100%;
-}
-
 main {
     display: flex;
     padding: var(--main-pad);
@@ -93,6 +82,16 @@ section h2 {
 }
 
 /* Classes Here */
+.main-figure {
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--main-pad);
+}
+
+.main-figure img {
+    max-height: 30rem;
+    width: 100%;
+}
 
 /* ID tags Here */
 
