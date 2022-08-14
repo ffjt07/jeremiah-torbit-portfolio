@@ -94,6 +94,10 @@ section h2 {
     width: 100%;
 }
 
+.most-recent {
+    display: flex;
+}
+
 /* ID tags Here */
 
 #about-me {
@@ -114,6 +118,11 @@ section h2 {
     display: flex;
     margin: var(--main-pad);
     text-align: start;
+}
+
+#my-work {
+    display: flex;
+    margin: 0 auto;
 }
 /* Pseudo Here */
 header h1:hover {
