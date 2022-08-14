@@ -1,7 +1,7 @@
 /* Root Here */
 :root {
     --charcoal-gray: #3f4249;
-    --dep-sea: #339bf8;
+    --deap-sea: #339bf8;
     --sea: #00fbff;
     --light-grey: #eaf2f9;
 }
@@ -25,6 +25,15 @@ h1 {
 
 h2 {
     font-size: 3.5rem;
+}
+
+header {
+    padding: 2rem;
+    background-color: var(--deap-sea);
+}
+
+header h1 {
+    display: inline-block;
 }
 /* Classes Here */
 
