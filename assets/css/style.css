@@ -79,12 +79,14 @@ main {
 
 section {
     display: flex;
+    width: 100%;
     padding: var(--main-pad);
     justify-content: flex-start;
 }
 
 section h2 {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     padding: var(--main-pad);
     border-right: solid var(--deap-sea);
@@ -94,6 +96,13 @@ section h2 {
 
 /* ID tags Here */
 
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6rem;
+}
+
 #about-me img {
     display: flex;
     margin: var(--main-pad);
@@ -101,6 +110,11 @@ section h2 {
     box-shadow: 0.5rem 0.5rem 0.25rem lightslategray;
 }
 
+#about-me p {
+    display: flex;
+    margin: var(--main-pad);
+    text-align: start;
+}
 /* Pseudo Here */
 header h1:hover {
     color: var(--charcoal-gray);
