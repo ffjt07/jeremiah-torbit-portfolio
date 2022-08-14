@@ -4,6 +4,7 @@
     --deap-sea: #339bf8;
     --sea: #00fbff;
     --light-grey: #eaf2f9;
+    --main-pad: 1rem;
 }
 
 /* Elements Here */
@@ -63,14 +64,33 @@ nav ul li a{
 figure {
     display: flex;
     justify-content: flex-start;
-    padding: 1rem;
+    padding: var(--main-pad);
 }
 
 figure img {
     max-height: 30rem;
     width: 100%;
 }
+
+main {
+    display: flex;
+    padding: var(--main-pad);
+}
+
+section {
+    display: flex;
+    padding: var(--main-pad);
+    justify-content: flex-start;
+}
+
 /* Classes Here */
+
+/* ID tags Here */
+
+#about-me img {
+    padding: var(--main-pad);
+    max-width: 20rem;
+}
 
 /* Pseudo Here */
 header h1:hover {
