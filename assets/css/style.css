@@ -18,6 +18,14 @@ body {
     background-color: var(--charcoal-gray);
     color: var(--light-grey);
 }
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
 /* Classes Here */
 
 /* Media Here */
