@@ -28,11 +28,12 @@ h2 {
 }
 
 header {
-    width: 100%;
     display: flex;
     padding: 2rem;
     background-color: var(--deap-sea);
     justify-content: space-between;
+    border: solid var(--charcoal-gray);
+    border-radius: 2rem;
 }
 
 header h1 {
@@ -59,6 +60,21 @@ nav ul li a{
     color: var(--light-grey);
 }
 /* Classes Here */
+
+/* Pseudo Here */
+nav ul li a:hover {
+    color: var(--sea);
+}
+
+nav ul li a:focus {
+    border: solid var(--charcoal-gray);
+    color: var(--sea);
+}
+
+nav ul li a:active {
+    color: var(--charcoal-gray);
+    font-size: 2.3rem;
+}
 
 /* Media Here */
 
