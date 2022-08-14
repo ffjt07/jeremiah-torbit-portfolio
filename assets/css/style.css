@@ -7,6 +7,10 @@
     --main-pad: 1rem;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* Elements Here */
 html {
     font-size: 62.5%;
@@ -98,6 +102,11 @@ section h2 {
     display: flex;
 }
 
+.most-recent img{
+    filter: blur(1rem);
+    -webkit-filter: blur(1rem);
+}
+
 /* ID tags Here */
 
 #about-me {
@@ -142,6 +151,11 @@ nav ul li a:focus {
 nav ul li a:active {
     color: var(--charcoal-gray);
     font-size: 2.3rem;
+}
+
+.most-recent img:hover {
+    filter: none;
+    -webkit-filter: none;
 }
 
 /* Media Here */
