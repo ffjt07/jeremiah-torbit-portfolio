@@ -1,10 +1,12 @@
 /* Root Here */
 :root {
     --charcoal-gray: #3f4249;
+    --light-charcoal-gray: #767a81;
     --deap-sea: #339bf8;
     --sea: #00fbff;
     --light-grey: #eaf2f9;
-    --main-pad: 1rem;
+    --main-pad: 2rem;
+    --blur: 0.5rem;
 }
 
 * {
@@ -74,8 +76,11 @@ main {
 section {
     display: flex;
     width: 100%;
+    margin: 1rem;
     padding: var(--main-pad);
     justify-content: flex-start;
+    background-color: var(--light-charcoal-gray);
+    border: solid var(--light-grey);
 }
 
 section h2 {
@@ -83,7 +88,6 @@ section h2 {
     justify-content: flex-start;
     align-items: center;
     padding: var(--main-pad);
-    border-right: solid var(--deap-sea);
 }
 
 /* Classes Here */
@@ -103,8 +107,8 @@ section h2 {
 }
 
 .most-recent img {
-    filter: blur(1rem);
-    -webkit-filter: blur(1rem);
+    filter: blur(0.5rem);
+    -webkit-filter: blur(0.5rem);
     height: 30rem;
 }
 
@@ -119,8 +123,8 @@ section h2 {
 
 .additional img {
     padding: var(--main-pad);
-    filter: blur(1rem);
-    -webkit-filter: blur(1rem);
+    filter: blur(0.5rem);
+    -webkit-filter: blur(0.5rem);
 }
 
 /* ID tags Here */
@@ -128,6 +132,7 @@ section h2 {
 #about-me {
     display: flex;
     justify-content: space-between;
+    padding: var(--main-pad);
     align-items: center;
     margin-right: 6rem;
 }
@@ -136,19 +141,29 @@ section h2 {
     display: flex;
     margin: var(--main-pad);
     max-width: 20rem;
-    box-shadow: 0.5rem 0.5rem 0.25rem lightslategray;
+    box-shadow: 0.5rem 0.5rem 0.25rem var(--charcoal-gray);
 }
 
 #about-me p {
     display: flex;
+    padding: var(--main-pad);
     margin: var(--main-pad);
     text-align: start;
+    
 }
 
 #my-work {
     display: flex;
+    padding: var(--main-pad);
     margin: 0 auto;
     flex-direction: column;
+}
+
+#contact-me {
+    display: flex;
+    padding: var(--main-pad);
+    justify-content: space-between;
+    align-items: center;
 }
 /* Pseudo Here */
 header h1:hover {
