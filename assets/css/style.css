@@ -3,7 +3,7 @@
     --charcoal-gray: #3f4249;
     --dep-sea: #339bf8;
     --sea: #00fbff;
-    --grey: #b0b8b8;
+    --light-grey: #eaf2f9;
 }
 
 /* Elements Here */
@@ -11,6 +11,13 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: var(--charcoal-gray);
+    color: var(--light-grey);
+}
 /* Classes Here */
 
 /* Media Here */
