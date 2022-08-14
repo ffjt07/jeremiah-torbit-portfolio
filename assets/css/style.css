@@ -62,6 +62,11 @@ nav ul li a{
 /* Classes Here */
 
 /* Pseudo Here */
+header h1:hover {
+    color: var(--charcoal-gray);
+    transition: all 3s ease-in-out;
+}
+
 nav ul li a:hover {
     color: var(--sea);
 }
