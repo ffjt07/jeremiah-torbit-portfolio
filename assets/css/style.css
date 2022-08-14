@@ -102,10 +102,14 @@ section h2 {
     display: flex;
 }
 
-.most-recent img{
+.most-recent img {
     filter: blur(1rem);
     -webkit-filter: blur(1rem);
     height: 30rem;
+}
+
+.most-recent p {
+    display: none;
 }
 
 .additional {
