@@ -83,13 +83,22 @@ section {
     justify-content: flex-start;
 }
 
+section h2 {
+    display: flex;
+    align-items: center;
+    padding: var(--main-pad);
+    border-right: solid var(--deap-sea);
+}
+
 /* Classes Here */
 
 /* ID tags Here */
 
 #about-me img {
-    padding: var(--main-pad);
+    display: flex;
+    margin: var(--main-pad);
     max-width: 20rem;
+    box-shadow: 0.5rem 0.5rem 0.25rem lightslategray;
 }
 
 /* Pseudo Here */
