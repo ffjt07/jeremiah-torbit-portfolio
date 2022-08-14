@@ -132,6 +132,7 @@ section h2 {
 #my-work {
     display: flex;
     margin: 0 auto;
+    flex-direction: column;
 }
 /* Pseudo Here */
 header h1:hover {
