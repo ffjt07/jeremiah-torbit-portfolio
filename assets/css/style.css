@@ -28,12 +28,35 @@ h2 {
 }
 
 header {
+    width: 100%;
+    display: flex;
     padding: 2rem;
     background-color: var(--deap-sea);
+    justify-content: space-between;
 }
 
 header h1 {
     display: inline-block;
+}
+
+nav {
+    padding-top: 1.5rem;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--light-grey);
 }
 /* Classes Here */
 
