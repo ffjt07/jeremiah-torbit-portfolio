@@ -105,6 +105,18 @@ section h2 {
 .most-recent img{
     filter: blur(1rem);
     -webkit-filter: blur(1rem);
+    height: 30rem;
+}
+
+.additional {
+    display: flex;
+    margin: 0 auto;
+}
+
+.additional img {
+    padding: var(--main-pad);
+    filter: blur(1rem);
+    -webkit-filter: blur(1rem);
 }
 
 /* ID tags Here */
@@ -155,6 +167,11 @@ nav ul li a:active {
 }
 
 .most-recent img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.additional img:hover {
     filter: none;
     -webkit-filter: none;
 }
