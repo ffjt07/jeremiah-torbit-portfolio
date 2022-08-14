@@ -106,16 +106,13 @@ section h2 {
 
 .most-recent {
     display: flex;
+    flex: 1 0 0;
 }
 
 .most-recent img {
     filter: blur(0.5rem);
     -webkit-filter: blur(0.5rem);
     height: 30rem;
-}
-
-.most-recent p {
-    display: none;
 }
 
 .additional {
@@ -198,4 +195,21 @@ nav ul li a:active {
 }
 
 /* Media Here */
+@media screen and (max-width: 992px) {
+    section {
+        flex-direction: column;
+    }
+    #about-me {
+        flex-direction: column;
+    }
+    #my-work {
+        flex-direction: column;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    #my-work .most-recent {
+        
+        width: 100%;
+    }
+}
