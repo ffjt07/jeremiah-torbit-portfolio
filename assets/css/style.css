@@ -1,7 +1,17 @@
+/* Root Here */
 :root {
     --charcoal-gray: #3f4249;
     --dep-sea: #339bf8;
     --sea: #00fbff;
     --grey: #b0b8b8;
 }
+
+/* Elements Here */
+html {
+    font-size: 62.5%;
+}
+
+/* Classes Here */
+
+/* Media Here */
 
