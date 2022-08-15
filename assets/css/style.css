@@ -231,6 +231,10 @@ nav ul li a:active {
   -webkit-filter: none;
 }
 
+.most-recent h3:hover {
+    background-color: var(--deap-sea);
+}
+
 .most-recent a:focus {
   box-shadow: inset 0 0 6rem 6rem var(--sea);
 }
@@ -242,6 +246,10 @@ nav ul li a:active {
 
 .additional a:focus {
   box-shadow: inset 0 0 6rem 6rem var(--sea);
+}
+
+.additional h5:hover {
+    background-color: var(--deap-sea); 
 }
 
 .contact-link:hover {
@@ -262,8 +270,26 @@ nav ul li a:active {
   #about-me {
     flex-direction: column;
   }
+
+}
+@media screen and (max-width: 768px) {
+    .most-recent img {
+        width: 37.5rem;
+    }
+    
+    .additional {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .additional a {
+        flex: 1 0 100%;
+      }
+
+    .additional img {
+        height: 15rem;
+        width: 27rem;
+    }
 }
 
-    p {
-    font-size: larger;
-}
+
