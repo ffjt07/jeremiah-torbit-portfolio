@@ -100,7 +100,7 @@ h3 {
   padding: 0.3rem;
   position: absolute;
   text-decoration: none;
-  background-color: var(--deap-sea);
+  background-color: var(--charcoal-gray);
   color: var(--light-grey);
   bottom: 0.8rem;
   left: 0;
@@ -112,7 +112,7 @@ h5 {
   padding: 0.2rem;
   position: absolute;
   text-decoration: none;
-  background-color: var(--deap-sea);
+  background-color: var(--charcoal-gray);
   color: var(--light-grey);
   bottom: 2rem;
   margin-left: 1rem;
@@ -158,14 +158,15 @@ h5 {
 .email,
 .github,
 .phone {
-    display: flex;
+  display: flex;
 }
 
 .contact-link {
-    text-indent: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--light-grey);
+  text-indent: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--light-grey);
+  text-shadow: 0.2rem 0.2rem 0.2rem var(--charcoal-gray);
 }
 
 /* ID tags Here */
@@ -229,13 +230,27 @@ nav ul li a:active {
   -webkit-filter: none;
 }
 
+.most-recent a:focus {
+  box-shadow: inset 0 0 6rem 6rem var(--sea);
+}
+
 .additional img:hover {
   filter: none;
   -webkit-filter: none;
 }
 
+.additional a:focus {
+  box-shadow: inset 0 0 6rem 6rem var(--sea);
+}
+
 .contact-link:hover {
   color: var(--charcoal-gray);
+  text-shadow: none;
+}
+
+.contact-link:focus {
+  color: var(--charcoal-gray);
+  text-shadow: none;
 }
 
 /* Media Here */
