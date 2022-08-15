@@ -90,6 +90,10 @@ section h2 {
     padding: var(--main-pad);
 }
 
+p {
+    text-indent: 3rem;
+}
+
 /* Classes Here */
 .main-figure {
     display: flex;
@@ -199,12 +203,6 @@ nav ul li a:active {
         flex-direction: column;
     }
     #about-me {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .additional {
         flex-direction: column;
     }
 }
