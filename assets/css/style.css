@@ -106,7 +106,6 @@ section h2 {
 
 .most-recent {
     display: flex;
-    margin: 0 auto;
 }
 
 .most-recent img {
@@ -117,11 +116,12 @@ section h2 {
 
 .additional {
     display: flex;
-    margin: 0 auto;
+    justify-content: space-around;
 }
 
+ 
 .additional img {
-    padding: var(--main-pad);
+    margin: 1rem auto;
     filter: blur(0.5rem);
     -webkit-filter: blur(0.5rem);
 }
@@ -152,10 +152,9 @@ section h2 {
 }
 
 #my-work {
-    display: flex;
-    padding: var(--main-pad);
-    margin: 0 auto;
+    display: flex; 
     flex-direction: column;
+    margin: 0 auto;
 }
 
 #contact-me {
@@ -202,13 +201,10 @@ nav ul li a:active {
     #about-me {
         flex-direction: column;
     }
-    #my-work {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    #my-work .most-recent {
-        width: 100%;
+    .additional {
+        flex-direction: column;
     }
 }
