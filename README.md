@@ -1,4 +1,4 @@
-# jeremiah-torbit-portfolio
+# Jeremiah Torbit's Portfolio
 
 ## Description
 
