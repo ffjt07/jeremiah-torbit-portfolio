@@ -36,7 +36,7 @@ h2 {
 
 header {
     display: flex;
-    padding: 2rem;
+    padding: var(--main-pad);
     background-color: var(--deap-sea);
     justify-content: space-between;
     border: solid var(--charcoal-gray);
@@ -49,7 +49,7 @@ header h1 {
 
 nav {
     padding-top: 1.5rem;
-    margin-right: 2rem;
+    margin-right: var(--main-pad);
     font-size: 2.5rem;
 }
 
@@ -94,6 +94,29 @@ p {
     text-indent: 3rem;
 }
 
+h3 {
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    position: absolute;
+    text-decoration: none;
+    background-color: var(--deap-sea);
+    color: var(--light-grey);
+    bottom: 0.8rem;
+    left: 0;
+    z-index: 2;
+}
+
+h5 {
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    position: absolute;
+    text-decoration: none;
+    background-color: var(--deap-sea);
+    color: var(--light-grey);
+    bottom: 1rem;
+    left: 0.5rem;
+    z-index: 2;
+}
 /* Classes Here */
 .main-figure {
     display: flex;
@@ -110,6 +133,7 @@ p {
 
 .most-recent {
     display: flex;
+    position: relative;
 }
 
 .most-recent img {
@@ -120,6 +144,7 @@ p {
 
 .additional {
     display: flex;
+    position: relative;
     justify-content: space-around;
 }
 
