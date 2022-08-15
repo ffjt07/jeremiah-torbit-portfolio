@@ -262,3 +262,7 @@ nav ul li a:active {
     flex-direction: column;
   }
 }
+
+    p {
+    font-size: larger;
+}
