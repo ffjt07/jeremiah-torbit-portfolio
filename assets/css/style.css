@@ -42,7 +42,7 @@ header {
   justify-content: space-between;
   border: solid var(--charcoal-gray);
   border-radius: 2rem;
-  margin-left: 2.6rem;
+  margin: 10px 6.5px 0 2.6rem;
 }
 
 header h1 {
