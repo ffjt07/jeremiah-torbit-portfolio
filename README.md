@@ -16,4 +16,4 @@ https://github.com/ffjt07/jeremiah-torbit-portfolio
 
 ## Preview
 
-![Jeremiah Torbit's Portfolio Preview](./assets/images/jeremiah-portfolio.gif)
+![Jeremiah Torbit's Portfolio Preview]()
