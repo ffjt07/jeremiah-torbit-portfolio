@@ -42,6 +42,7 @@ header {
   justify-content: space-between;
   border: solid var(--charcoal-gray);
   border-radius: 2rem;
+  margin-left: 2.6rem;
 }
 
 header h1 {
@@ -154,6 +155,14 @@ h5 {
   margin: 1rem auto;
   filter: blur(0.5rem);
   -webkit-filter: blur(0.5rem);
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 .email,
@@ -275,6 +284,7 @@ nav ul li a:active {
 @media screen and (max-width: 768px) {
     .most-recent img {
         width: 37.5rem;
+        height: 22rem;
     }
     
     .additional {
@@ -284,6 +294,7 @@ nav ul li a:active {
 
     .additional a {
         flex: 1 0 100%;
+        flex-direction: column;
       }
 
     .additional img {
