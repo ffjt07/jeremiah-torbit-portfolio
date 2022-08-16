@@ -158,11 +158,11 @@ h5 {
 }
 
 .relative {
-    position: relative;
+  position: relative;
 }
 
 .absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .email,
@@ -241,7 +241,7 @@ nav ul li a:active {
 }
 
 .most-recent h3:hover {
-    background-color: var(--deap-sea);
+  background-color: var(--deap-sea);
 }
 
 .most-recent a:focus {
@@ -258,7 +258,7 @@ nav ul li a:active {
 }
 
 .additional h5:hover {
-    background-color: var(--deap-sea); 
+  background-color: var(--deap-sea);
 }
 
 .contact-link:hover {
@@ -279,28 +279,25 @@ nav ul li a:active {
   #about-me {
     flex-direction: column;
   }
-
 }
 @media screen and (max-width: 768px) {
-    .most-recent img {
-        width: 37.5rem;
-        height: 22rem;
-    }
-    
-    .additional {
-        margin: 0 auto;
-        flex-direction: column;
-    }
+  .most-recent img {
+    width: 37.5rem;
+    height: 22rem;
+  }
 
-    .additional a {
-        flex: 1 0 100%;
-        flex-direction: column;
-      }
+  .additional {
+    margin: 0 auto;
+    flex-direction: column;
+  }
 
-    .additional img {
-        height: 15rem;
-        width: 27rem;
-    }
+  .additional a {
+    flex: 1 0 100%;
+    flex-direction: column;
+  }
+
+  .additional img {
+    height: 15rem;
+    width: 27rem;
+  }
 }
-
-
