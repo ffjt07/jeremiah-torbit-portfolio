@@ -157,6 +157,8 @@ h5 {
   margin: 1rem auto;
   filter: blur(0.5rem);
   -webkit-filter: blur(0.5rem);
+  height: 150px;
+  width: 150px;
 }
 
 .relative {
